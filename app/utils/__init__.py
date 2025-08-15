@@ -1,8 +1,12 @@
 # Utils package initialization
 
-from app.utils.logging import logger, log_manager, format_log_message,log
+from app.utils.logging import logger, log_manager, format_log_message, log
 from app.utils.api_key import APIKeyManager, test_api_key
-from app.utils.error_handling import handle_gemini_error, translate_error, handle_api_error
+from app.utils.error_handling import (
+    handle_gemini_error,
+    translate_error,
+    handle_api_error,
+)
 from app.utils.rate_limiting import protect_from_abuse
 from app.utils.cache import ResponseCacheManager, generate_cache_key
 from app.utils.request import ActiveRequestsManager

@@ -32,6 +32,8 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+.roo/
+
 # pdm
 .pdm.toml
 .pdm-python
@@ -58,3 +60,6 @@ target/
 # IPython
 profile_default/
 ipython_config.py
+
+python/
+/hajimi
